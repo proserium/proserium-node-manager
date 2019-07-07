@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
 	<classpathentry kind="lib" path="C:/Users/patrick/.gradle/caches/modules-2/files-2.1/net.sf.jptools/jptools/1.6.1-SNAPSHOT/6337f5020e8b13991f5fe838a9bca93f70b8f4cc/jptools-1.6.1-SNAPSHOT.jar">
 		<attributes>
