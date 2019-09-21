@@ -1,10 +1,16 @@
 /*
- * build.gradle
+ * build-proserium.gradle
  *
  * Copyright by proserium, all rights reserved.
  * MIT License: https://mit-license.org
  */
-apply from: 'gradle/build-proserium.gradle'
+apply from: 'gradle/build-init.gradle'
+apply from: 'gradle/build-java.gradle'
+apply from: 'gradle/build-eclipse.gradle'
+apply from: 'gradle/build-test.gradle'
+apply from: 'gradle/build-repository.gradle'
+
+defaultTasks 'clean', 'build', 'eclipse'
 
 
 /***************************************************************************************

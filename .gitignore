@@ -1,9 +1,13 @@
 # Eclipse project files
 .classes/
+bin/
+.classpath
+.settings
 
 # other files
 .gradle/
 build/
+build-eclipse/
 
 # generated source
 srcGen/
